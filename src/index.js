@@ -1,8 +1,8 @@
 import { alunosAprovados } from './src/alunos.js';
-import fs from 'fs';
+import fs from 'fs-extra';
 
 // Lendo os dados do arquivo JSON
-fs.readFile('alunos.json', 'utf8', (err, data) => {
+fs.readFile('./src/alunos.json', 'utf8', (err, data) => {
     if (err) {
         console.error('Erro ao ler o arquivo de alunos:', err);
         return;
