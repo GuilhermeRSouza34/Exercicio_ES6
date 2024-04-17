@@ -1,4 +1,4 @@
-import { alunosAprovados } from './alunos.js';
+import { alunosAprovados } from './src/alunos.js';
 import fs from 'fs';
 
 // Lendo os dados do arquivo JSON
